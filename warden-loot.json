@@ -1,0 +1,16 @@
+{
+  "excludedItems": [
+    "minecraft:dragon_egg",
+    "minecraft:command_block",
+    "minecraft:chain_command_block",
+    "minecraft:repeating_command_block",
+    "minecraft:structure_block",
+    "minecraft:jigsaw",
+    "minecraft:barrier",
+    "minecraft:light",
+    "minecraft:debug_stick"
+  ],
+  "enableDrops": true,
+  "dropChance": 100,
+  "logDrops": true
+}

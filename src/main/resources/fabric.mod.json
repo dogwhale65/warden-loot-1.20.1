@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "warden-loot",
+	"version": "1.0.1",
+	"name": "Warden Loot",
+	"description": "A Fabric mod that makes Wardens drop random Epic or Rare items when killed, with configurable exclusions.",
+	"authors": [
+		"dogwhale65"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/warden-loot/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dogwhale65.wardenloot.WardenLoot"
+		],
+		"fabric-datagen": [
+			"dogwhale65.wardenloot.WardenLootDataGenerator"
+		]
+	},
+	"mixins": [
+		"warden-loot.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
