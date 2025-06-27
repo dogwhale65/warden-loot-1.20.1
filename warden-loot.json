@@ -11,9 +11,9 @@
     "minecraft:debug_stick",
     "minecraft:knowledge_book",
     "minecraft:structure_void",
-    "minecraft:minecart_with_command_block",
-    "minecraft:minecart_with_repeating_command_block",
-    "minecraft:minecart_with_chain_command_block"
+    "minecraft:command_block_minecart",
+    "minecraft:chain_command_block_minecart",
+    "minecraft:repeating_command_block_minecart"
   ],
   "enableDrops": true,
   "dropChance": 100,
