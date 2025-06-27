@@ -8,9 +8,14 @@
     "minecraft:jigsaw",
     "minecraft:barrier",
     "minecraft:light",
-    "minecraft:debug_stick"
+    "minecraft:debug_stick",
+    "minecraft:knowledge_book",
+    "minecraft:structure_void",
+    "minecraft:minecart_with_command_block",
+    "minecraft:minecart_with_repeating_command_block",
+    "minecraft:minecart_with_chain_command_block"
   ],
   "enableDrops": true,
   "dropChance": 100,
-  "logDrops": true
+  "logDrops": false
 }
