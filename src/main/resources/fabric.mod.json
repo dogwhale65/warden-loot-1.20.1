@@ -26,7 +26,7 @@
 		"warden-loot.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.9",
+		"fabricloader": ">=0.17.2",
 		"minecraft": "1.21.4",
 		"java": ">=17",
 		"fabric-api": "*"
