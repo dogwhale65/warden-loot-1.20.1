@@ -28,7 +28,7 @@ public class ItemRarityCache {
         for (Item item : Registries.ITEM) {
             try {
                 ItemStack stack = new ItemStack(item);
-                Rarity rarity = item.getRarity(stack);
+                Rarity rarity = stack.getRarity();
                 
                 if (rarity == Rarity.EPIC || rarity == Rarity.RARE) {
                     totalItems++;
@@ -71,7 +71,7 @@ public class ItemRarityCache {
         
         for (String itemId : config.excludedItems) {
             try {
-                Identifier id = new Identifier(itemId);
+                Identifier id = Identifier.of(itemId);
                 if (Registries.ITEM.containsId(id)) {
                     Item item = Registries.ITEM.get(id);
                     excludedItems.add(item);
